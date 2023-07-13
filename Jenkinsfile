@@ -14,7 +14,7 @@ pipeline {
 
 
                 //   sh 'ssh -o StrictHostKeyChecking=no ubuntu@18.216.230.49' 
-     sh ' scp -r /var/lib/jenkins/workspace/php_ssh/*  ubuntu@18.188.202.173:/var/www/html' 
+     sh ' scp -r /var/lib/jenkins/workspace/php_ssh/*  root@18.188.202.173:/var/www/html' 
               }
             }
    
