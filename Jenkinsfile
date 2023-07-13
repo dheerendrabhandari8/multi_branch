@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    // stages {
+    stages {
     //     stage('Hello') {
     //         steps {
     //         git branch: 'main', credentialsId: 'git_hub', url: 'https://github.com/dheerendrabhandari8/jenkins-cicd-php-demo.git'  
@@ -19,6 +19,6 @@ pipeline {
             }
    
     }
-        
+    }  
     }
 
